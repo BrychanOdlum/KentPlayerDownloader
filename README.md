@@ -2,7 +2,7 @@
 
 Quick script to download videos from Kent Player (Panapto Player).
 
-Downloads the HLS stream.
+Downloads the HLS stream and converts to mp4.
 
 #### Install dependencies:
 ```
