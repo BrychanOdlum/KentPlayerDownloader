@@ -4,7 +4,7 @@
   "description": "Download videos from University of Kent's Panapto Player",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "download": "node src/index.js"
   },
   "keywords": [
     "kent",
@@ -12,5 +12,14 @@
     "downloader"
   ],
   "author": "Brychan Bennett-Odlum <git@brychan.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "hls-fetcher": "^2.1.0",
+    "nightmare": "^3.0.2",
+    "rimraf": "^3.0.0",
+    "sanitize-filename": "^1.6.3",
+    "tmp": "^0.1.0",
+    "yargs": "^15.1.0"
+  }
 }
